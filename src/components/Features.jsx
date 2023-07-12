@@ -2,34 +2,28 @@ import Image from 'next/image'
 
 import {Container} from '@/components/Container'
 import featureimg from "@/images/features.png"
-import screenshotPayroll from "@/images/screenshots/payroll.png";
-import screenshotExpenses from "@/images/screenshots/expenses.png";
 
 const features = [
     {
         title: 'Share team inboxes',
-        description:
-            "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
-        image: screenshotPayroll,
+        description: "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop."
     },
     {
         title: 'Deliver instant answers',
-        description:
-            "An all in-one customer service platform that helps you balance everything your customers need to be happy.",
-        image: screenshotExpenses,
+        description: "An all in-one customer service platform that helps you balance everything your customers need to be happy."
     },
 ]
 
 export function Features() {
     return (
         <section
-            id="About"
-            aria-label="About"
+            id="features"
+            aria-label="What we offer"
             className="bg-white py-16">
             <Container className="flex space-y-6 flex-wrap md:flex-nowrap md:space-x-4 items-center">
                 <div>
                     <p className="font-display text-base text-indigo-700">Who we are</p>
-                    <h2 className="font-display text-4xl tracking-tight text-black">
+                    <h2 className="font-semibold text-4xl tracking-tight text-black">
                         Commercial interior designers
                     </h2>
                     <p className="mt-6 text-lg text-slate-600">
