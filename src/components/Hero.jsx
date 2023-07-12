@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import {Button} from '@/components/Button'
 import {Container} from '@/components/Container'
+import heroImg from '@/images/hero.png'
 import logoLaravel from '@/images/logos/laravel.svg'
 import logoMirage from '@/images/logos/mirage.svg'
 import logoStatamic from '@/images/logos/statamic.svg'
@@ -46,7 +47,10 @@ export function Hero() {
                 </Button>
                 <Button href="/register" variant="solid" color="purple">Get in touch</Button>
             </div>
-            <div className="mt-36 lg:mt-44">
+            <div className="mt-16">
+                <Image src={heroImg} alt={heroImg}></Image>
+            </div>
+            <div className="mt-16">
                 <p className="font-display text-base text-indigo-300">
                     We've worked with some great startups
                 </p>
