@@ -6,23 +6,25 @@ export function Metrics() {
         <section
             id="metrics"
             aria-label="metrics"
-            className="flex space-x-2 flex-wrap md:flex-nowrap md:space-x-16 md:space-y-6"
+            className="bg-white"
         >
-            <Container>
-                <p>400+</p>
-                <p>Projects completed</p>
-            </Container>
-            <Container>
-                <p>400+</p>
-                <p>Projects completed</p>
-            </Container>
-            <Container>
-                <p>400+</p>
-                <p>Projects completed</p>
-            </Container>
-            <Container>
-                <p>400+</p>
-                <p>Projects completed</p>
+            <Container className="p-20 flex">
+                <div>
+                    <p>400+</p>
+                    <p>Projects completed</p>
+                </div>
+                <div>
+                    <p>400+</p>
+                    <p>Projects completed</p>
+                </div>
+                <div>
+                    <p>400+</p>
+                    <p>Projects completed</p>
+                </div>
+                <div>
+                    <p>400+</p>
+                    <p>Projects completed</p>
+                </div>
             </Container>
 
         </section>
