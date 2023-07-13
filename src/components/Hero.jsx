@@ -45,7 +45,7 @@ export function Hero() {
                     </svg>
                     <span className="ml-3">Showreel</span>
                 </Button>
-                <Button href="/register" variant="solid" color="purple">Get in touch</Button>
+                <Button href="#get-started-today" variant="solid" color="purple">Get in touch</Button>
             </div>
             <div className="mt-16">
                 <Image src={heroImg} alt={heroImg}></Image>
