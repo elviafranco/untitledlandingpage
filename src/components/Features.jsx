@@ -19,7 +19,7 @@ export function Features() {
         <section
             id="features"
             aria-label="What we offer"
-            className="bg-white py-16">
+            className="bg-white py-24">
             <Container className="flex space-y-6 flex-wrap md:flex-nowrap md:space-x-4 items-center">
                 <div>
                     <p className="font-display text-base text-indigo-700">Who we are</p>
@@ -41,7 +41,7 @@ export function Features() {
                     ))}
                 </div>
             </Container>
-            <Container className="mt-6">
+            <Container className="mt-16">
                 <Image src={featureimg} alt="features" optimized/>
             </Container>
         </section>

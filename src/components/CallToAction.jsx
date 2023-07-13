@@ -11,8 +11,8 @@ export function CallToAction() {
         >
             <AuthLayout>
                 <div className="flex flex-col">
-                    <div className="mt-20">
-                        <h2 className="font-semibold text-2xl tracking-tight text-black">
+                    <div>
+                        <h2 className="font-semibold text-2xl md:text-3xl tracking-tight">
                             Let's start your project
                         </h2>
                         <p className="mt-2 text-base text-slate-600">

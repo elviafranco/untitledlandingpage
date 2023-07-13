@@ -24,7 +24,7 @@ export function Footer() {
             <Link className="text-indigo-300 hover:text-white" href="#">Cookies</Link>
           </div>
           <p className="mt-6 text-sm text-indigo-300 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} Untitled. All rights
+            Copyright &copy; {new Date().getFullYear()} All rights
             reserved.
           </p>
         </div>
