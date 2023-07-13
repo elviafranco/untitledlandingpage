@@ -8,7 +8,7 @@ export function Metrics() {
             aria-label="metrics"
             className="bg-white"
         >
-            <Container className="p-20 flex">
+            <Container className="p-16 flex">
                 <div>
                     <p>400+</p>
                     <p>Projects completed</p>
